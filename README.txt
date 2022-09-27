@@ -24,7 +24,9 @@ Email: kaivalya.v.deshpande@gmail.com
 ================================================================================================================
 How To Install:
 
-0. Make sure you have Visual Studio Command Line Utilities and .NET installed
+Pre-requisites:
+a. You have Visual Studio Command Line Utilities and .NET installed
+b. Your Windows/ directory exists on the C:/ drive
 
 1. Open an Administrative x64 Native Tools Command Prompt Instance
 

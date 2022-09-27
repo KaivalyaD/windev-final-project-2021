@@ -5,6 +5,5 @@
 *.dll
 *.tlb
 *.tlh
-*.c
 Server/bin/*
 Client/dotnet/import/*
