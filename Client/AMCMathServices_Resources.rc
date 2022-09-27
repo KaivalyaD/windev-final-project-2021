@@ -1,0 +1,187 @@
+#include ".\include\AMCMathServices_Resources.h"
+
+// Icon
+IDI_NAMASAKARAM		ICON	".\\GraphicObjects\\Namasakaram.ico"
+
+// Splash Screen Bitmap
+IDBM_AMCLOGO		BITMAP	".\\GraphicObjects\\AMC_Logo.bmp"
+
+DATAENTRY DIALOG 0, 0, 644, 180
+STYLE DS_CENTER | WS_CAPTION
+CAPTION "AstroMediComp Math Services"
+FONT 9, "Segoe UI"
+BEGIN
+
+/* Group Box 0 */
+CONTROL "Already Registered", IDRB_REGISTERED, "button", BS_AUTORADIOBUTTON| WS_TABSTOP | WS_GROUP, 10, 10, 70, 10
+CONTROL "Retiring", IDRB_RETIRING, "button", BS_AUTORADIOBUTTON, 10, 20, 35, 10
+CONTROL "New Registration", IDRB_REGISTERING, "button", BS_AUTORADIOBUTTON, 10, 30, 65, 10
+
+LTEXT "ID", -1, 125, 15, 10, 10
+EDITTEXT IDET_REGID, 90, 10, 30, 20, WS_GROUP | WS_TABSTOP | ES_RIGHT
+
+/* Vertical separation = 20 DBUs */
+
+/* Group Box 1 */
+LTEXT "Name :", -1, 10, 50, 25, 10
+EDITTEXT IDET_FNAME, 40, 50, 94, 10, WS_GROUP | WS_TABSTOP | ES_CENTER
+EDITTEXT IDET_MNAME, 140, 50, 94, 10, WS_TABSTOP | ES_CENTER
+EDITTEXT IDET_LNAME, 240, 50, 94, 10, WS_TABSTOP | ES_CENTER
+
+LTEXT "Address :", -1, 10, 71, 35, 10
+COMBOBOX IDCOMBO_ADDRESS, 40, 70, 94, 100, CBS_DROPDOWN | CBS_HASSTRINGS | WS_VSCROLL
+LTEXT "", IDST_ADDRESS, 140, 72, 94, 10
+
+/* Vertical separation = 20 DBUs */
+
+/* Group Box 2 */
+/* Row 0 */
+LTEXT "Basic 1", IDST_BASIC1, 10, 95, 26, 10
+LTEXT "Basic 2", IDST_BASIC2, 130, 95, 26, 10
+LTEXT "Power 1", IDST_POWER1, 260, 95, 26, 10
+LTEXT "Power 2", IDST_POWER2, 390, 95, 26, 10
+LTEXT "Trigonometery", IDST_TRIG, 520, 95, 50, 10
+
+/* Row 1 */
+/* Column 1 size in Dialog Box Unit(DBUs) : 100 DBU[10 --> 110] */
+CONTROL "Addition", IDCB_ADDITION, "button", BS_AUTOCHECKBOX | WS_TABSTOP | WS_GROUP, 10, 115, 40, 10
+CTEXT "+", -1, 83, 115, 4, 10
+EDITTEXT IDET_ADDITION_X, 60, 115, 20, 10, ES_RIGHT
+EDITTEXT IDET_ADDITION_Y, 90, 115, 20, 10, ES_RIGHT
+
+/* Column separation = 20 DBU */
+
+/* Column 2 size in Dialog Box Unit(DBUs) : 110 DBU[130 --> 240] */
+CONTROL "Multiplication", IDCB_MULTIPLICATION, "button", BS_AUTOCHECKBOX | WS_TABSTOP | WS_GROUP, 130, 115, 60, 10
+CTEXT "*", -1, 213, 115, 4, 10
+EDITTEXT IDET_MULTIPLICATION_X, 190, 115, 20, 10, ES_RIGHT
+EDITTEXT IDET_MULTIPLICATION_Y, 220, 115, 20, 10, ES_RIGHT
+
+/* Column separation = 20 DBU */
+
+/* Column 3 size in Dialog Box Unit(DBUs) : 70 DBU[260 --> 330] */
+CONTROL "Square", IDCB_SQUARE, "button", BS_AUTOCHECKBOX | WS_TABSTOP | WS_GROUP, 260, 115, 35, 10
+CTEXT "^2", -1, 315, 115, 10, 10
+EDITTEXT IDET_SQUARE_X, 295, 115, 20, 10, ES_RIGHT
+
+/* Column separation = 60 DBU */
+
+/* Column 4 size in Dialog Box Unit(DBUs) : 90 DBU[390 --> 480] */
+CONTROL "Square Root", IDCB_SQUAREROOT, "button", BS_AUTOCHECKBOX | WS_TABSTOP | WS_GROUP, 390, 115, 50, 10
+CTEXT "^(1/2)", -1, 460, 115, 20, 10
+EDITTEXT IDET_SQUAREROOT_X, 440, 115, 20, 10, ES_RIGHT
+
+/* Column separation = 40 DBU */
+
+/* Column 5 size in Dialog Box Unit(DBUs) : 70 DBU[520 --> 590] */
+CONTROL "Sine", IDCB_SINE, "button", BS_AUTOCHECKBOX | WS_TABSTOP | WS_GROUP, 520, 115, 30, 10
+CTEXT "(", -1, 555, 115, 5, 10
+CTEXT ")", -1, 580, 115, 5, 10
+EDITTEXT IDET_SINE_X, 560, 115, 20, 10, ES_RIGHT
+
+/* Row 2 */
+/* Column 1 */
+CONTROL "Subtraction", IDCB_SUBTRACTION, "button", BS_AUTOCHECKBOX, 10, 130, 45, 10
+CTEXT "-", -1, 83, 130, 4, 10
+EDITTEXT IDET_SUBTRACTION_X, 60, 130, 20, 10, ES_RIGHT
+EDITTEXT IDET_SUBTRACTION_Y, 90, 130, 20, 10, ES_RIGHT
+
+/* Column 2 */
+CONTROL "Division", IDCB_DIVISION, "button", BS_AUTOCHECKBOX, 130, 130, 45, 10
+CTEXT "/", -1, 213, 130, 4, 10
+EDITTEXT IDET_DIVISION_X, 190, 130, 20, 10, ES_RIGHT
+EDITTEXT IDET_DIVISION_Y, 220, 130, 20, 10, ES_RIGHT
+
+/* Column 3 */
+CONTROL "Cube", IDCB_CUBE, "button", BS_AUTOCHECKBOX, 260, 130, 35, 10
+CTEXT "^3", -1, 315, 130, 10, 10
+EDITTEXT IDET_CUBE_X, 295, 130, 20, 10, ES_RIGHT
+
+/* Column 4 */
+CONTROL "Cube Root", IDCB_CUBEROOT, "button", BS_AUTOCHECKBOX, 390, 130, 45, 10
+CTEXT "^(1/3)", -1, 460, 130, 20, 10
+EDITTEXT IDET_CUBEROOT_X, 440, 130, 20, 10, ES_RIGHT
+
+/* Column 5 */
+CONTROL "Cosine", IDCB_COSINE, "button", BS_AUTOCHECKBOX, 520, 130, 40, 10
+CTEXT "(", -1, 555, 130, 5, 10
+CTEXT ")", -1, 580, 130, 5, 10
+EDITTEXT IDET_COSINE_X, 560, 130, 20, 10, ES_RIGHT
+
+/* Error Message String */
+CTEXT "", IDST_ERRORMESSAGE, 190, 165, 250, 10
+
+/* Footnote */
+LTEXT "For details, move the cursor over group headings", -1, 5, 165, 180, 10
+
+/* Submission Push Buttons */
+PUSHBUTTON "OK", IDPB_OK, 544, 165, 45, 10
+PUSHBUTTON "Cancel", IDPB_CANCEL, 594, 165, 45, 10
+PUSHBUTTON "Log", IDPB_LOG, 494, 165, 45, 10
+
+END
+
+/* Template for the dialog displaying the result of all operations the user selected */
+RESULT DIALOG 0, 0, 220, 250
+STYLE DS_CENTER | WS_CAPTION
+CAPTION "AMCMath Services: Results"
+FONT 9, "Segoe UI"
+BEGIN
+	
+	PUSHBUTTON "Exit", IDPB_RDLG_OK, 165, 225, 45, 10
+	
+END
+
+/* The menu resource for the Result and the Log Dialog */
+CONTENTSLOGWND MENU DISCARDABLE
+BEGIN
+	POPUP "&Help"
+	BEGIN
+		MENUITEM "&About\tCtrl + A", IDMI_RDLG_ABOUT
+		MENUITEM "&Quit\tCtrl + Q", IDMI_RDLG_QUIT
+	END
+END
+
+CONTENTSRESULTDLG MENU DISCARDABLE
+BEGIN
+	POPUP "&Help"
+	BEGIN
+		MENUITEM "&About", IDMI_RDLG_ABOUT
+		MENUITEM "&Quit", IDMI_RDLG_QUIT
+	END
+END
+
+/* Accelerators */
+LOGMENUACCELS ACCELERATORS
+BEGIN
+	"^A", IDMI_RDLG_ABOUT
+	"^Q", IDMI_RDLG_QUIT
+END
+
+/* Template for the About Dialog */
+ABOUT DIALOGEX 0, 0, 200, 190
+STYLE DS_CENTER | WS_CAPTION
+CAPTION "AMCMath Services: About"
+FONT 9, "Segoe UI"
+BEGIN
+
+ICON IDI_NAMASAKARAM, -1, 5, 8, 0, 0, SS_ICON
+
+LTEXT "This is a programming exercise written using only the Win32 SDK and the design patterns from Microsoft's Component \
+			Object Model (COM).\n\nSyntax highlighting, Intellisense and the Text Editor in Visual Studio 2019 were the only \
+			features of the IDE utilized.", -1, 30, 5, 160, 60
+
+	LTEXT "Everything including the GUI is typed by hand. All files were built using only command line utilities. \
+			\n\nDevelopment began on 20-09-2021 and lasted until 12-03-2022.", -1, 30, 70, 160, 40
+
+
+	LTEXT "Developer :", -1, 30, 120, 40, 10
+	LTEXT "Kaivalya Vishwakumar Deshpande", -1, 70, 120, 120, 10
+	LTEXT "Nationality :", -1, 30, 130, 40, 10
+	LTEXT "Indian", -1, 70, 130, 120, 10
+	LTEXT "Email :", -1, 30, 140, 40, 10
+	LTEXT "kaivalya.v.deshpande@gmail.com", -1, 70, 140, 120, 10
+
+	LTEXT "|| Knowledge is Interrelated ||", -1, 57, 160, 87, 10
+	PUSHBUTTON "Exit", IDPB_ADLG_EXIT, 78, 175, 45, 10
+END

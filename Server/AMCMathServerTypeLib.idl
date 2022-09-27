@@ -1,0 +1,37 @@
+import "unknwn.idl";
+
+// IPowerTwo
+[
+	object,
+	uuid(FACE6818-66A2-47A3-96F6-6D270CBAA508),
+	helpstring("IPowerTwo of AMCMathServer"),
+	pointer_default(unique),
+	dual,
+	oleautomation
+]
+interface IPowerTwo : IDispatch
+{
+	import "oaidl.idl";
+	HRESULT SquareRootOfNumber([in]float, [out, retval]float*);
+	HRESULT CubeRootOfNumber([in]float, [out, retval]float*);
+};
+
+// The TypeLib
+[
+	uuid(42841933-00B4-4FF6-9472-7A5310887CE9),
+	version(1.0),
+	helpstring("Type Library for CPowerTwo implemented inside AMCMathServer")
+]
+library AMCMathServerTypeLib
+{
+	importlib("stdole32.tlb");
+
+	[
+		uuid(8CD2023C-EA47-4DE2-8EE6-579C1BD892AD),
+		helpstring("Component Class implementing IPowerTwo")
+	]
+	coclass CPowerTwo
+	{
+		[default] interface IPowerTwo;
+	};
+}

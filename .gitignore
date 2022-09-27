@@ -1,0 +1,10 @@
+*.exe
+*.obj
+*.res
+*.lib
+*.dll
+*.tlb
+*.tlh
+*.c
+Server/bin/*
+Client/dotnet/import/*
