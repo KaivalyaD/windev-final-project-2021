@@ -31,15 +31,19 @@ b. Your Windows/ directory exists on the C:/ drive
 2. Build and Install the COM Server by running the following commands
    (project_dir is the path to this project's directory):
    
-   	   > cd project_dir\Server
-   	   > BuildInstallServer.bat  // You would be prompted 2 message boxes after this command, keep clicking OK
+   	```Batchfile
+   	> cd project_dir\Server
+   	> BuildInstallServer.bat  // You would be prompted 2 message boxes after this command, keep clicking OK
+   	```
 
 COM Server is now Built and Installed (Do Not Close the Command Prompt Instance yet)
 
-3. Building and Installing the Client by running the following commands:
-
+3. Building and Installing the Client by running the following commands: 
+	
+	```Batchfile
 	> cd ..\Client
 	> BuildInstallClient.bat
+	```
 
 Client has now been Built and Installed.
 
@@ -51,7 +55,9 @@ Do either of the following:
 
 2. Navigate to project_dir in a command prompt instance, and run the following command:
 
+	```Batchfile
 	> AMCMathServices.exe
+	```
 
 # How To Uninstall:
 
@@ -60,15 +66,19 @@ Do either of the following:
 2. Uninstall the Client by running the following commands
    (project_dir is the path to this project's directory):
 
+	```Batchfile
 	> cd project_dir\Client
 	> UninstallClient.bat
+	```
 
 Client has now been Uninstalled (Do Not Close the Command Prompt Instance yet)
 
-3. Uninstall the COM Server by running the following commands
-   
-   	   > cd ..\Server
-   	   > UninstallServer.bat  // You would be prompted 2 message boxes after this command, keep clicking OK
+3. Uninstall the COM Server by running the following commands:
+   	
+	```Batchfile
+	> cd ..\Server
+	> UninstallServer.bat  // You would be prompted 2 message boxes after this command, keep clicking OK
+	```
 
 COM Server has now been Uninstalled.
 
