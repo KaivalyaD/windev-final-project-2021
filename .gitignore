@@ -6,4 +6,5 @@
 *.tlb
 *.tlh
 Server/bin/*
+Client/Users/*
 Client/dotnet/import/*
