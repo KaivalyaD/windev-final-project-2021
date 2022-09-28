@@ -1,7 +1,6 @@
-Welcome to my WinDev2021 Final Project Repository!
+#Welcome to my WinDev2021 Final Project Repository!
 
-===========================================================================
-About Project:
+##About Project:
 
 This is a programming exercise written using only
 the Win32 SDK and the design patterns from Microsoft's
@@ -21,8 +20,7 @@ Developer:   Kaivalya Vishwakumar Deshpande
 Nationality: Indian
 Email: kaivalya.v.deshpande@gmail.com
 
-===========================================================================
-How To Install:
+#How To Install:
 
 Pre-requisites:
 a. You have Visual Studio Command Line Utilities and .NET installed
@@ -45,8 +43,7 @@ COM Server is now Built and Installed (Do Not Close the Command Prompt Instance 
 
 Client has now been Built and Installed.
 
-===========================================================================
-How To Run:
+#How To Run:
 
 Do either of the following:
 
@@ -56,8 +53,7 @@ Do either of the following:
 
 	> AMCMathServices.exe
 
-===========================================================================
-How To Uninstall:
+#How To Uninstall:
 
 1. Open an Administrative x64 Native Tools Command Prompt Instance
 
@@ -76,8 +72,7 @@ Client has now been Uninstalled (Do Not Close the Command Prompt Instance yet)
 
 COM Server has now been Uninstalled.
 
-===========================================================================
-Previews
+##Previews
 
 ![Splash Screen](Previews/01_Splash.png)
 What you see when you run the Application
@@ -88,23 +83,22 @@ All errors are validated on the spot
 ![Registration](Previews/03_UponRegistration.png)
 Upon Successful Registration
 
-![Negative Square Roots](Previews/04_NegativeSquareRoots)
+![Negative Square Roots](Previews/04_NegativeSquareRoots.png)
 Non-Real Numbers or NaNs are Not Supported by the Server
 
-![Results](Preview/05_Results)
+![Results](Preview/05_Results.png)
 The Results Dialog
 
-![About](Preview/06_About)
+![About](Preview/06_About.png)
 The About Dialog
 
-![Log](Preview/07_Log)
+![Log](Preview/07_Log.png)
 The Splash Window can become a Display for the User Log
 
-![Retirement](Preview/08_UponRetirement)
+![Retirement](Preview/08_UponRetirement.png)
 Upon Successful Retirement
 
-![Close](Preview/09_Close)
+![Close](Preview/09_Close.png)
 What you see when you close the Application
 
-===========================================================================
-- Enjoy!
+#Enjoy!
