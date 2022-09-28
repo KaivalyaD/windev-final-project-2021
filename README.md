@@ -80,9 +80,6 @@ What you see when you run the Application
 ![Spot Validation](Previews/02_SpotValidation.png)
 All errors are validated on the spot
 
-![Registration](Previews/03_UponRegistration.png)
-Upon Successful Registration
-
 ![Negative Square Roots](Previews/04_NegativeSquareRoots.png)
 Non-Real Numbers or NaNs are Not Supported by the Server
 
