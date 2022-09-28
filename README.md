@@ -24,7 +24,7 @@ Email: kaivalya.v.deshpande@gmail.com  <br />
 
 ### Pre-requisites:  <br />
 a. You have Visual Studio Command Line Utilities and .NET installed  <br />
-b. Your `Windows/` directory exists on the `C:/` drive  <br />
+b. Your `Windows\` directory exists on the `C:\` drive  <br />
 
 1. Open an Administrative `x64 Native Tools Command Prompt` Instance
 
@@ -90,27 +90,30 @@ Do either of the following:
 ## Previews
 
 ![Splash Screen](Previews/01_Splash.png)
-What you see when you run the Application
+What you see when you run the Application  <br />
 
 ![Spot Validation](Previews/02_SpotValidation.png)
-All errors are validated on the spot
+All errors are validated on the spot  <br />
+
+![Registration](Previews/03_UponRegistration.png)
+Upon Successful Registration  <br />
 
 ![Negative Square Roots](Previews/04_NegativeSquareRoots.png)
-Non-Real Numbers or NaNs are Not Supported by the Server
+Non-Real Numbers or NaNs are Not Supported by the Server  <br />
 
-![Results](Preview/05_Results.png)
-The Results Dialog
+![Results](Previews/05_Results.png)
+The Results Dialog  <br />
 
-![About](Preview/06_About.png)
-The About Dialog
+![About](Previews/06_About.png)
+The About Dialog  <br />
 
-![Log](Preview/07_Log.png)
-The Splash Window can become a Display for the User Log
+![Log](Previews/07_Log.png)
+The Splash Window can become a Display for the User Log  <br />
 
-![Retirement](Preview/08_UponRetirement.png)
-Upon Successful Retirement
+![Retirement](Previews/08_UponRetirement.png)
+Upon Successful Retirement  <br />
 
-![Close](Preview/09_Close.png)
-What you see when you close the Application
+![Close](Previews/09_Close.png)
+What you see when you close the Application  <br />
 
 # Enjoy!
