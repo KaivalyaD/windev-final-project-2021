@@ -1,104 +1,119 @@
-# Welcome to my WinDev2021 Final Project Repository!
+# Welcome to my WinDev2021 Final Project Source Repository!
 
 ## About Project:
 
 This is a programming exercise written using only
 the Win32 SDK and the design patterns from Microsoft's
-Component Object Model (COM).
+Component Object Model (COM). <br />
 
-Syntax highlighting, Intellisence and the Text Editor
+Syntax highlighting, Intellisense and the Text Editor
 in Visual Studio 2019 were the only features of the
-IDE utilized.
+IDE utilized.  <br />
 
 Everything including the GUI is typed by hand. All
-files were built using only command line utilities.
+files were built using only command line utilities.  <br />
 
 Development began on 20-09-2021 and lasted until
-12-03-2022.
+12-03-2022.  <br />
 
-Developer:   Kaivalya Vishwakumar Deshpande
-Nationality: Indian
-Email: kaivalya.v.deshpande@gmail.com
+Developer:   Kaivalya Vishwakumar Deshpande  <br />
+Nationality: Indian  <br />
+Email: kaivalya.v.deshpande@gmail.com  <br />
 
 # How To Install:
 
-Pre-requisites:
-a. You have Visual Studio Command Line Utilities and .NET installed
-b. Your Windows/ directory exists on the C:/ drive
+### Pre-requisites:  <br />
+a. You have Visual Studio Command Line Utilities and .NET installed  <br />
+b. Your `Windows\` directory exists on the `C:\` drive  <br />
 
-1. Open an Administrative x64 Native Tools Command Prompt Instance
+1. Open an Administrative `x64 Native Tools Command Prompt` Instance
 
 2. Build and Install the COM Server by running the following commands
-   (project_dir is the path to this project's directory):
+   (`project_dir` is the path to this project's directory):
    
-   	   > cd project_dir\Server
-   	   > BuildInstallServer.bat  // You would be prompted 2 message boxes after this command, keep clicking OK
+   	```Batchfile
+	
+   	> cd project_dir\Server
+   	> BuildInstallServer.bat  // You would be prompted 2 message boxes after this command, keep clicking OK
+   	```
 
-COM Server is now Built and Installed (Do Not Close the Command Prompt Instance yet)
+   COM Server is now Built and Installed (Do Not Close the Command Prompt Instance yet)
 
-3. Building and Installing the Client by running the following commands:
-
+3. Build and Install the Client by running the following commands: 
+	
+	```Batchfile
+	
 	> cd ..\Client
 	> BuildInstallClient.bat
+	```
 
-Client has now been Built and Installed.
+   Client has now been Built and Installed.
 
 # How To Run:
 
 Do either of the following:
 
-1. Navigate to project_dir in the file explorer and double-click on AMCMathServices.exe; or
+1. Navigate to `project_dir` in the file explorer and double-click on `AMCMathServices.exe`; or
 
-2. Navigate to project_dir in a command prompt instance, and run the following command:
+2. Navigate to `project_dir` in a command prompt instance, and run the following command:
 
+	```Batchfile
+	
 	> AMCMathServices.exe
+	```
 
 # How To Uninstall:
 
-1. Open an Administrative x64 Native Tools Command Prompt Instance
+1. Open an Administrative `x64 Native Tools Command Prompt` Instance
 
 2. Uninstall the Client by running the following commands
-   (project_dir is the path to this project's directory):
+   (`project_dir` is the path to this project's directory):
 
+	```Batchfile
+	
 	> cd project_dir\Client
 	> UninstallClient.bat
+	```
 
-Client has now been Uninstalled (Do Not Close the Command Prompt Instance yet)
+   Client has now been Uninstalled (Do Not Close the Command Prompt Instance yet)
 
-3. Uninstall the COM Server by running the following commands
-   
-   	   > cd ..\Server
-   	   > UninstallServer.bat  // You would be prompted 2 message boxes after this command, keep clicking OK
+3. Uninstall the COM Server by running the following commands:
+   	
+	```Batchfile
+	
+	> cd ..\Server
+	> UninstallServer.bat  // You would be prompted 2 message boxes after this command, keep clicking OK
+	```
 
-COM Server has now been Uninstalled.
+   COM Server has now been Uninstalled.
 
 ## Previews
 
 ![Splash Screen](Previews/01_Splash.png)
-What you see when you run the Application
+<p> What you see when you run the Application </p>  <br />
 
 ![Spot Validation](Previews/02_SpotValidation.png)
-All errors are validated on the spot
+<p> All errors are validated on the spot </p>  <br />
 
 ![Registration](Previews/03_UponRegistration.png)
-Upon Successful Registration
+<p> Upon Successful Registration </p>  <br />
 
 ![Negative Square Roots](Previews/04_NegativeSquareRoots.png)
-Non-Real Numbers or NaNs are Not Supported by the Server
+<p> Non-Real Numbers or NaNs are Not Supported by the Server </p>  <br />
 
-![Results](Preview/05_Results.png)
-The Results Dialog
+![Results](Previews/05_Results.png)
+<p> The Results Dialog </p>  <br />
 
-![About](Preview/06_About.png)
-The About Dialog
+![About](Previews/06_About.png)
+<p> The About Dialog </p>  <br />
 
-![Log](Preview/07_Log.png)
-The Splash Window can become a Display for the User Log
+![Log](Previews/07_Log.png)
+<p> The Splash Window can become a Display for the User Log </p>  <br />
 
-![Retirement](Preview/08_UponRetirement.png)
-Upon Successful Retirement
+![Retirement](Previews/08_UponRetirement.png)
+<p> Upon Successful Retirement </p> <br />
 
-![Close](Preview/09_Close.png)
-What you see when you close the Application
+![Close](Previews/09_Close.png)
+<p> What you see when you close the Application </p>  <br />
 
-# Enjoy!
+## Enjoy!
