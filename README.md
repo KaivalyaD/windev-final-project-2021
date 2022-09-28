@@ -1,4 +1,4 @@
-# Welcome to my WinDev2021 Final Project Repository!
+# Welcome to my WinDev2021 Final Project Source Repository!
 
 ## About Project:
 
@@ -22,9 +22,9 @@ Email: kaivalya.v.deshpande@gmail.com  <br />
 
 # How To Install:
 
-Pre-requisites:
-a. You have Visual Studio Command Line Utilities and .NET installed
-b. Your `Windows/` directory exists on the `C:/` drive
+### Pre-requisites:  <br />
+a. You have Visual Studio Command Line Utilities and .NET installed  <br />
+b. Your `Windows/` directory exists on the `C:/` drive  <br />
 
 1. Open an Administrative `x64 Native Tools Command Prompt` Instance
 
