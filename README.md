@@ -90,7 +90,7 @@ Do either of the following:
 ## Previews
 
 ![Splash Screen](Previews/01_Splash.png)
-What you see when you run the Application  <br />
+<p aligh="center"> What you see when you run the Application </p>  <br />
 
 ![Spot Validation](Previews/02_SpotValidation.png)
 All errors are validated on the spot  <br />
@@ -116,4 +116,4 @@ Upon Successful Retirement  <br />
 ![Close](Previews/09_Close.png)
 What you see when you close the Application  <br />
 
-# Enjoy!
+## Enjoy!
