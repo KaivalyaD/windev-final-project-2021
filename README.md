@@ -90,30 +90,30 @@ Do either of the following:
 ## Previews
 
 ![Splash Screen](Previews/01_Splash.png)
-<p> *What you see when you run the Application* </p>  <br />
+<p> What you see when you run the Application </p>  <br />
 
 ![Spot Validation](Previews/02_SpotValidation.png)
-<p> *All errors are validated on the spot* </p>  <br />
+<p> All errors are validated on the spot </p>  <br />
 
 ![Registration](Previews/03_UponRegistration.png)
-<p> *Upon Successful Registration* </p>  <br />
+<p> Upon Successful Registration </p>  <br />
 
 ![Negative Square Roots](Previews/04_NegativeSquareRoots.png)
-<p> *Non-Real Numbers or NaNs are Not Supported by the Server* </p>  <br />
+<p> Non-Real Numbers or NaNs are Not Supported by the Server </p>  <br />
 
 ![Results](Previews/05_Results.png)
-<p> *The Results Dialog* </p>  <br />
+<p> The Results Dialog </p>  <br />
 
 ![About](Previews/06_About.png)
-<p> *The About Dialog* </p>  <br />
+<p> The About Dialog </p>  <br />
 
 ![Log](Previews/07_Log.png)
-<p> *The Splash Window can become a Display for the User Log* </p>  <br />
+<p> The Splash Window can become a Display for the User Log </p>  <br />
 
 ![Retirement](Previews/08_UponRetirement.png)
-<p> *Upon Successful Retirement* </p> <br />
+<p> Upon Successful Retirement </p> <br />
 
 ![Close](Previews/09_Close.png)
-<p> *What you see when you close the Application* </p>  <br />
+<p> What you see when you close the Application </p>  <br />
 
 ## Enjoy!
