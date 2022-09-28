@@ -77,4 +77,16 @@ Client has now been Uninstalled (Do Not Close the Command Prompt Instance yet)
 COM Server has now been Uninstalled.
 
 ================================================================================================================
+Previews
+
+![Splash Screen](Previews/01_Splash.png)
+The Splash Screen
+
+![Spot Validation](Previews/02_SpotValidation.png)
+All errors are validated on the spot
+
+![Registration](Previews/03_UponRegistration.png)
+On Successful Registration
+
+================================================================================================================
 - Enjoy!
