@@ -20,7 +20,7 @@ Developer:   Kaivalya Vishwakumar Deshpande  <br />
 Nationality: Indian  <br />
 Email: kaivalya.v.deshpande@gmail.com  <br />
 
-# How To Install:
+## How To Install:
 
 ### Pre-requisites:  <br />
 a. You have Visual Studio Command Line Utilities and .NET installed  <br />
@@ -49,7 +49,7 @@ b. Your `Windows\` directory exists on the `C:\` drive  <br />
 
    Client has now been Built and Installed.
 
-# How To Run:
+## How To Run:
 
 Do either of the following:
 
@@ -62,7 +62,7 @@ Do either of the following:
 	> AMCMathServices.exe
 	```
 
-# How To Uninstall:
+## How To Uninstall:
 
 1. Open an Administrative `x64 Native Tools Command Prompt` Instance
 
