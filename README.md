@@ -90,30 +90,30 @@ Do either of the following:
 ## Previews
 
 ![Splash Screen](Previews/01_Splash.png)
-<p aligh="center"> What you see when you run the Application </p>  <br />
+<p> *What you see when you run the Application* </p>  <br />
 
 ![Spot Validation](Previews/02_SpotValidation.png)
-All errors are validated on the spot  <br />
+<p> *All errors are validated on the spot* </p>  <br />
 
 ![Registration](Previews/03_UponRegistration.png)
-Upon Successful Registration  <br />
+<p> *Upon Successful Registration* </p>  <br />
 
 ![Negative Square Roots](Previews/04_NegativeSquareRoots.png)
-Non-Real Numbers or NaNs are Not Supported by the Server  <br />
+<p> *Non-Real Numbers or NaNs are Not Supported by the Server* </p>  <br />
 
 ![Results](Previews/05_Results.png)
-The Results Dialog  <br />
+<p> *The Results Dialog* </p>  <br />
 
 ![About](Previews/06_About.png)
-The About Dialog  <br />
+<p> *The About Dialog* </p>  <br />
 
 ![Log](Previews/07_Log.png)
-The Splash Window can become a Display for the User Log  <br />
+<p> *The Splash Window can become a Display for the User Log* </p>  <br />
 
 ![Retirement](Previews/08_UponRetirement.png)
-Upon Successful Retirement  <br />
+<p> *Upon Successful Retirement* </p> <br />
 
 ![Close](Previews/09_Close.png)
-What you see when you close the Application  <br />
+<p> *What you see when you close the Application* </p>  <br />
 
 ## Enjoy!
