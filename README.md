@@ -2,18 +2,18 @@
 
 ## About Project:
 
-This is a programming exercise written using only  <br />
-the Win32 SDK and the design patterns from Microsoft's  <br />
-Component Object Model (COM).  <br />
+This is a programming exercise written using only
+the Win32 SDK and the design patterns from Microsoft's
+Component Object Model (COM). <br />
 
-Syntax highlighting, Intellisence and the Text Editor  <br />
-in Visual Studio 2019 were the only features of the  <br />
+Syntax highlighting, Intellisence and the Text Editor
+in Visual Studio 2019 were the only features of the
 IDE utilized.  <br />
 
-Everything including the GUI is typed by hand. All  <br />
+Everything including the GUI is typed by hand. All
 files were built using only command line utilities.  <br />
 
-Development began on 20-09-2021 and lasted until  <br />
+Development began on 20-09-2021 and lasted until
 12-03-2022.  <br />
 
 Developer:   Kaivalya Vishwakumar Deshpande  <br />
