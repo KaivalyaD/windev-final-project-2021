@@ -6,7 +6,7 @@ This is a programming exercise written using only
 the Win32 SDK and the design patterns from Microsoft's
 Component Object Model (COM). <br />
 
-Syntax highlighting, Intellisence and the Text Editor
+Syntax highlighting, Intellisense and the Text Editor
 in Visual Studio 2019 were the only features of the
 IDE utilized.  <br />
 
