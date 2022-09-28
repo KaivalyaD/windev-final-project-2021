@@ -39,7 +39,7 @@ b. Your `Windows\` directory exists on the `C:\` drive  <br />
 
    COM Server is now Built and Installed (Do Not Close the Command Prompt Instance yet)
 
-3. Building and Installing the Client by running the following commands: 
+3. Build and Install the Client by running the following commands: 
 	
 	```Batchfile
 	
